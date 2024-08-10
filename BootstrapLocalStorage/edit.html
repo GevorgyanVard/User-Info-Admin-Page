@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body class="bg-light">
+    <form class="bg-white p-3 w-50 mx-auto my-5 border shadow-lg rounded rounded-lg">
+        <div class="form-group">
+            <label for="fname">Firstname</label>
+            <input type="text" placeholder="Firstname" id="fname" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="lname">Lasttname</label>
+            <input type="text" placeholder="Lasttname" id="lname" class="form-control">
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Email" id="email" class="form-control">
+        </div>
+        <img id="img" class="w-25">
+        <div class="form-group">
+            <label for="image">Profile Picture</label>
+            <input type="file" id="image" class="btn btn-dark w-100">
+        </div>
+        <div class="form-group">
+            <input type="button" value="Edit user" class="btn btn-dark w-100" onclick="edit()">
+        </div>
+    </form>
+
+    <script src="./js/edit.js"></script>
+</body>
+
+</html>
